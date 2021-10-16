@@ -7,6 +7,7 @@ I have also implemented a feature that allows the app to switch between light mo
 ## How I built it
 I used React library as the app’s web framework, which makes it convenient for me to create interactive UIs and encapsulated components that manage their state. Besides, Material-UI is also imported for creating more customizable React components, including the text areas, select box and search result container. I also implemented a word search engine for many languages using dictionary API to fetch words’ definitions, examples, synonyms and audios. Lastly, this app is an installable and responsively designed Progressive Web App (PWAs), which uses service workers, manifests, and other web-platform features in combination with progressive enhancement, to give users an experience with native apps. 
 
+## Try it Out on [Netlify](https://literature-bird.netlify.app)
 
 ## Getting Started with Create React App
 
