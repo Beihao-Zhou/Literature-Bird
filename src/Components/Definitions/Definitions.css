@@ -1,0 +1,47 @@
+.meanings {
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    scrollbar-width: thin;
+    -webkit-scrollbar-width: thin;
+    height: 45vh;
+    border: 8px solid rgb(216, 201, 201);
+    border-radius: 10px;
+    padding: 10px 20px;
+    overflow-x: hidden;
+  }
+
+.subTitle{
+    font-size: 2vw;
+    font-family: 'Montserrat', sans-serif;
+}
+
+@media (max-width: 900px){
+    .meanings{
+        height: 60vh;
+        margin-top: 13vh;
+    }
+    .subTitle{
+        font-size: 4vw;
+    }
+}
+
+@media (max-width: 550px){
+    .meanings{
+        height: 45vh;
+        margin-top: 8vh;
+        border: 4px solid rgb(216, 201, 201);
+        border-radius: 7px;
+    }
+    .subTitle{
+        font-size: 4vw;
+    }
+}
+
+.singleMean {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin: 10px 0;
+}

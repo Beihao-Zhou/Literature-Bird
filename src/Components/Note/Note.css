@@ -1,0 +1,17 @@
+.noteContainer{
+    width: 100%;
+    margin: 5vh 0;
+}
+
+p {
+    font-style: italic;
+}
+
+p:hover{
+    text-decoration: line-through;
+    cursor: pointer;
+}
+
+.submitText{
+    margin: 20px;
+}
