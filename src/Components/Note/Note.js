@@ -5,16 +5,13 @@ import './Note.css';
 
 function QuoteItem(props){
 
-  // eslint-disable-next-line
-  const [key, setKey] = useState(props.index)
-
   const handleClick = (e) => {
-    props.deleteQuoteCallBack(key)
+    props.deleteQuoteCallBack(props.index)
   }
 
   return (
     <div onClick={handleClick}>
-      <p><span>{`${key+1}. `}</span>{props.name}</p>
+      <p><span>{`${props.index+1}. `}</span>{props.name}</p>
     </div>
   );
 }
