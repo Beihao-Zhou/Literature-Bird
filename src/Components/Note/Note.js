@@ -5,6 +5,7 @@ import './Note.css';
 
 function QuoteItem(props){
 
+  // eslint-disable-next-line
   const [key, setKey] = useState(props.index)
 
   const handleClick = (e) => {
