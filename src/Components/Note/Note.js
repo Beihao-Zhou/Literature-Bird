@@ -35,7 +35,6 @@ function QuoteForm(props){
       <TextField
           id="outlined-multiline-static"
           label="New Quote or Quick Note"
-          multiline
           fullWidth
           rows={3}
           defaultValue="Add a new Quote or Quick Note!"
